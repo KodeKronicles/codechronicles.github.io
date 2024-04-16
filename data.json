@@ -95,6 +95,77 @@
 		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
 		"longInfo": "docs/babbage.html"
 	}
+	,
+	{
+		"@sort": "appleII",
+		"shortName": "Apple II",
+		"image": "img/appleII.jpg",
+		"info":{
+			"Name": "Apple II",
+			"Invention date": "1977 AD",
+			"Invention place": "Silicon Valley",
+			"Type of device": "Electronic"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/appleII.html"
+	},
+	{
+		"@sort": "ibmpc",
+		"shortName": "IBM PC",
+		"image": "img/ibmpc.jpg",
+		"info":{
+			"Name": "IBM PC",
+			"Invention date": "1981 AD",
+			"Invention place": "New York",
+			"Type of device": "Electronic"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/ibmpc.html"
+	},
+	{
+		"@sort": "bbcmicro",
+		"shortName": "BBC micro",
+		"image": "img/bbcmicro.jpg",
+		"info":{
+			"Name": "BBC micro",
+			"Invention date": "1981 AD",
+			"Invention place": "London",
+			"Type of device": "Electronic"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/bbcmicro.html"
+	},
+	{
+		"@sort": "leonardo",
+		"shortName": "CINECA super-Leonardo",
+		"image": "img/leonardo.jpg",
+		"info":{
+			"Name": "CINECA super-Leonardo",
+			"Invention date": "1998 AD",
+			"Invention place": "",
+			"Type of device": "Electronic"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/leonardo.html"
+	},
+	{
+		"@sort": "macm1",
+		"shortName": "Mac M1",
+		"image": "img/macm1.jpg",
+		"info":{
+			"Name": "Mac M1",
+			"Invention date": "2020 AD",
+			"Invention place": "Silicon Valley",
+			"Type of device": "Electronic"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/macm1.html"
+	}
   ]
   
 }
