@@ -1,0 +1,44 @@
+{
+  "meta": {
+    "startWith": 0,
+    "startNarrative": "Mechanical",
+    "startValue": "Abacus",
+    "narratives": [
+      "Mechanical",
+      "Electromechanical",
+      "Electronic",
+	  "Timeline"
+    ]
+  },
+  "items":[
+	{
+		"@sort": "abacus",
+		"shortName": "Abacus",
+		"image": "img/abacus.jpg",
+		"info":{
+			"Name": "Abacus",
+			"Invention date": "3000 BC",
+			"Invention place": "no clue",
+			"Type of device": "Mechanical",
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/abacus.html"
+	},
+	{
+		"@sort": "loom",
+		"shortName": "Loom",
+		"image": "img/loom.jpg",
+		"info":{
+			"Name": "Jacquard loom",
+			"Invention date": "1800 AD",
+			"Invention place": "France",
+			"Type of device": "Mechanical",
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/abacus.html"
+	}
+  ]
+  
+}
