@@ -176,8 +176,8 @@
 			"Invention place": "Silicon Valley",
 			"Type of device": "Electronic"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Apple II was one of the first mass-produced personal computers, designed by Steve Wozniak and Steve Jobs.",
+		"mediumInfo": "Featuring a built-in keyboard and color graphics, the Apple II became a revolutionary tool for home users, schools, and businesses, sparking the personal computer revolution of the late 1970s and 1980s.",
 		"longInfo": "docs/appleII.html"
 	},
 	{
@@ -215,7 +215,7 @@
 		"info":{
 			"Name": "CINECA super-Leonardo",
 			"Invention date": "1998 AD",
-			"Invention place": "",
+			"Invention place": "EuroHPC JU",
 			"Type of device": "Electronic"
 		},
 		"shortInfo": "just a short information snippet",
