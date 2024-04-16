@@ -19,11 +19,53 @@
 			"Name": "Abacus",
 			"Invention date": "3000 BC",
 			"Invention place": "no clue",
-			"Type of device": "Mechanical",
+			"Type of device": "Mechanical"
 		},
 		"shortInfo": "just a short information snippet",
 		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
 		"longInfo": "docs/abacus.html"
+	},
+	{
+		"@sort": "autoflute",
+		"shortName": "Automatic flute",
+		"image": "img/autoflute.jpg",
+		"info":{
+			"Name": "Banu Musa automatic flute",
+			"Invention date": "9th century AD",
+			"Invention place": "Levant",
+			"Type of device": "Mechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/abacus.html"
+	},
+	{
+		"@sort": "drum",
+		"shortName": "Drum machine",
+		"image": "img/drummachine.jpg",
+		"info":{
+			"Name": "Al-Jazari drum machine",
+			"Invention date": "12th century AD",
+			"Invention place": "Egypt",
+			"Type of device": "Mechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/abacus.html"
+	},
+	{
+		"@sort": "musicbox",
+		"shortName": "Music box",
+		"image": "img/musicbox.jpg",
+		"info":{
+			"Name": "Music box",
+			"Invention date": "1796 AD",
+			"Invention place": "France",
+			"Type of device": "Mechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/musicbox.html"
 	},
 	{
 		"@sort": "loom",
@@ -33,11 +75,25 @@
 			"Name": "Jacquard loom",
 			"Invention date": "1800 AD",
 			"Invention place": "France",
-			"Type of device": "Mechanical",
+			"Type of device": "Mechanical"
 		},
 		"shortInfo": "just a short information snippet",
 		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
 		"longInfo": "docs/abacus.html"
+	},
+	{
+		"@sort": "babbage",
+		"shortName": "Difference engine",
+		"image": "img/babbage.jpg",
+		"info":{
+			"Name": "Babbage's difference engine",
+			"Invention date": "1822 AD",
+			"Invention place": "England",
+			"Type of device": "Electromechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/babbage.html"
 	}
   ]
   
