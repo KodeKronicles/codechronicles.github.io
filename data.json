@@ -97,6 +97,76 @@
 	}
 	,
 	{
+		"@sort": "Hollerith machine",
+		"shortName": "Hollerith machine",
+		"image": "img/HollerithCunsusMachine.jpg",
+		"info":{
+			"Name": "Hollerith Census machine",
+			"Invention date": "1890",
+			"Invention place": "Columbia University, USA",
+			"Type of device": "Electromechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/HollerithCunsusMachine.html"
+	},
+	  {
+		"@sort": "COLOSSUS",
+		"shortName": "COLOSSUS",
+		"image": "img/COLOSSUS.jpg",
+		"info":{
+			"Name": "COLOSSUS",
+			"Invention date": "1943-1944",
+			"Invention place": "Government Code and Cypher School (GC&CS) at Bletchley Park",
+			"Type of device": "Electromechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/COLOSSUS.html"
+	},
+	  {
+		"@sort": "Harvard Marck I",
+		"shortName": "Harvard Marck I",
+		"image": "img/Harvard Marck I.jpg",
+		"info":{
+			"Name": "Harvard Marck I",
+			"Invention date": "1944",
+			"Invention place": "Harvard",
+			"Type of device": "Electromechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/harvardmarckI.html"
+	},{
+		"@sort": "ENIAC",
+		"shortName": "ENIAC",
+		"image": "img/ENIAC.jpg",
+		"info":{
+			"Name": "ENIAC",
+			"Invention date": "1945",
+			"Invention place": "University of Pennsylvania",
+			"Type of device": "Electromechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/ENIAC.html"
+	},
+	  {
+		"@sort": "Commodore PET",
+		"shortName": "Commodore PET",
+		"image": "img/CommodorePET.jpg",
+		"info":{
+			"Name": "Commodore PET",
+			"Invention date": "1977",
+			"Invention place": "Silicon Valley",
+			"Type of device": "Electromechanical"
+		},
+		"shortInfo": "just a short information snippet",
+		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"longInfo": "docs/CommodorePET.html"
+	},
+
+	  {
 		"@sort": "appleII",
 		"shortName": "Apple II",
 		"image": "img/appleII.jpg",
