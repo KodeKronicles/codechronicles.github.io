@@ -21,8 +21,8 @@
 			"Invention place": "no clue",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "A hand-operated calculating tool consisting of a two-dimensional array of slidable items.",
+		"mediumInfo": "A hand-operated calculating tool consisting of a two-dimensional array of slidable items. Still in use to this day, the abacus has an odvantage of not requiring paper and pen, nor does it require electricity, and it's also used as the standard by vision-impaired people. First appearing in early 3rd millenium BC Mesopotamia, it spread throughout the Old World and was used as a calculating device from Ireland to Japan.",
 		"longInfo": "docs/abacus.html"
 	},
 	{
@@ -37,7 +37,7 @@
 		},
 		"shortInfo": "just a short information snippet",
 		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
-		"longInfo": "docs/abacus.html"
+		"longInfo": "docs/autoflute.html"
 	},
 	{
 		"@sort": "drum",
@@ -51,7 +51,7 @@
 		},
 		"shortInfo": "just a short information snippet",
 		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
-		"longInfo": "docs/abacus.html"
+		"longInfo": "docs/drummachine.html"
 	},
 	{
 		"@sort": "musicbox",
@@ -79,7 +79,7 @@
 		},
 		"shortInfo": "just a short information snippet",
 		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
-		"longInfo": "docs/abacus.html"
+		"longInfo": "docs/jacquardloom.html"
 	},
 	{
 		"@sort": "babbage",
