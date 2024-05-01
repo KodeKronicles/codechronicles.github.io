@@ -42,15 +42,15 @@
 	{
 		"@sort": "drum",
 		"shortName": "Drum machine",
-		"image": "img/drummachine.jpg",
+		"image": "img/drummachine.png",
 		"info":{
 			"Name": "Al-Jazari drum machine",
 			"Invention date": "12th century AD",
 			"Invention place": "Egypt",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Al Jazari drum machine was an early programmable automata with a drum machine with pegs that bumb into levers operating the percussion.",
+		"mediumInfo": "The Al Jazari drum machine was an early programmable automata with a drum machine with pegs that bumb into levers operating the percussion. Different rhythms and musical patterns were achievable by moving the pegs of the central cylinder around. The machine could have actually been a more complex mechanism representing an entire band, that could also perform facial actions during music production.",
 		"longInfo": "docs/drummachine.html"
 	},
 	{
@@ -63,8 +63,8 @@
 			"Invention place": "France",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "A music box is an automatic musical instrument in a box that produces musical notes by using a set of pins placed on a revolving cylinder or disc to pluck the tuned teeth of a steel comb.",
+		"mediumInfo": "A music box is an automatic musical instrument in a box that produces musical notes by using a set of pins placed on a revolving cylinder or disc to pluck the tuned teeth of a steel comb. The popular device best known today as a music box developed from musical snuff boxes of the 18th century. Some of the more complex boxes also contain a tiny drum and/or bells in addition to the metal comb.",
 		"longInfo": "docs/musicbox.html"
 	},
 	{
@@ -77,8 +77,8 @@
 			"Invention place": "France",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "Jacquard loom is a loom, in which the weaving pattern is programmable by a set of punched cards laced together in a sequence.",
+		"mediumInfo": "Jacquard loom is a loom, in which the weaving pattern is programmable by a set of punched cards laced together in a sequence. One complete card, consisting of multiple rows of holes, corresponded to one row of the design",
 		"longInfo": "docs/jacquardloom.html"
 	},
 	{
@@ -91,8 +91,8 @@
 			"Invention place": "England",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was first created by Charles Babbage.",
+		"mediumInfo": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was first created by Charles Babbage. The name difference engine is derived from the method of divided differences, a way to interpolate or tabulate functions by using a small set of polynomial co-efficients.",
 		"longInfo": "docs/babbage.html"
 	}
 	,
