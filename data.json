@@ -106,8 +106,8 @@
 			"Invention place": "Columbia University, USA",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Hollerith Census Machine, developed in 1890, revolutionized data processing by automating the tabulation of census data, significantly reducing time and labor.",
+		"mediumInfo": "In 1890, Herman Hollerith introduced a groundbreaking invention, the Hollerith Census Machine. This electro-mechanical marvel streamlined the tedious process of census data tabulation. Using punched cards and mechanical counters, it enabled rapid computation, marking a significant leap forward in information management.",
 		"longInfo": "docs/HollerithCunsusMachine.html"
 	},
 	  {
@@ -120,8 +120,8 @@
 			"Invention place": "Government Code and Cypher School (GC&CS) at Bletchley Park",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "COLOSSUS, operational during World War II, was the world's first programmable digital electronic computer. It played a crucial role in breaking German codes and significantly influenced the development of computing technology.",
+		"mediumInfo": "COLOSSUS, a marvel of its time, emerged during the tumult of World War II. Designed by British codebreakers, it stood as the world's first programmable digital electronic computer. Its primary mission was breaking the German Lorenz cipher, a feat that greatly aided the Allied war effort and advanced the field of cryptanalysis.",
 		"longInfo": "docs/COLOSSUS.html"
 	},
 	  {
@@ -134,8 +134,8 @@
 			"Invention place": "Harvard",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Harvard Mark I, completed in 1944, was one of the earliest programmable computers. It was used primarily for complex calculations, including those related to military and scientific research.",
+		"mediumInfo": "The Harvard Mark I, a milestone in early computing history, was completed in 1944 under the guidance of Howard Aiken. This electro-mechanical behemoth, standing 51 feet long and 8 feet tall, was the world's first programmable automatic calculator. Its capabilities revolutionized computation, tackling complex mathematical problems with unprecedented speed and accuracy.",
 		"longInfo": "docs/harvardmarckI.html"
 	},{
 		"@sort": "ENIAC",
@@ -147,8 +147,8 @@
 			"Invention place": "University of Pennsylvania",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "ENIAC, completed in 1946, was the world's first general-purpose electronic digital computer. It revolutionized computing by introducing electronic components, enabling faster and more versatile data processing.",
+		"mediumInfo": "The Electronic Numerical Integrator and Computer (ENIAC), unveiled in 1946, marked a seismic shift in computing technology. Developed by John Mauchly and J. Presper Eckert, ENIAC was the world's first large-scale electronic digital computer. Its groundbreaking use of electronic valves instead of mechanical switches enabled unprecedented computational speed and flexibility, heralding a new era in information processing.",
 		"longInfo": "docs/ENIAC.html"
 	},
 	  {
@@ -161,8 +161,8 @@
 			"Invention place": "Silicon Valley",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Commodore PET, launched in 1977, was one of the earliest personal computers. Its integrated design, featuring a keyboard and monitor, made it a popular choice for home and educational use.",
+		"mediumInfo": "In 1977, the Commodore PET burst onto the burgeoning personal computer scene, offering users a complete computing experience in a single package. With its integrated keyboard, monitor, and cassette tape drive, the PET revolutionized the way people interacted with computers, making computing accessible to a broader audience beyond hobbyists and professionals.",
 		"longInfo": "docs/CommodorePET.html"
 	},
 
