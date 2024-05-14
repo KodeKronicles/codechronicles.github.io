@@ -1,0 +1,104 @@
+/* Your existing CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 2em;
+}
+
+.hero {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.hero h1 {
+    font-size: 2.5em;
+}
+
+.hero p {
+    font-size: 1.2em;
+    color: #666;
+}
+
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1em;
+}
+
+.features-carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
+
+.feature {
+    flex: 0 0 calc(33.33% - 20px); /* Display 3 items at a time, adjust as needed */
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Hide radio buttons */
+input[type="radio"] {
+    display: none;
+}
+
+/* Show corresponding slide when radio button is checked */
+input[type="radio"]:checked + .features-carousel .carousel {
+    transform: translateX(-100%);
+}
+
+input[type="radio"]#slide2:checked + .features-carousel .carousel {
+    transform: translateX(-200%);
+}
+
+input[type="radio"]#slide3:checked + .features-carousel .carousel {
+    transform: translateX(-300%);
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+}
+.features-carousel .carousel {
+    display: flex;
+    transition: transform 0.5s ease;
+}
