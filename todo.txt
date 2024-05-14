@@ -1,0 +1,15 @@
+finish the objects and put them into json (simple html for the longest text) - everyone
+
+navbar with all pages at the top of every page so:
+- main museum cover page - 
+- exhibition (dropdown menu with one item?) - 
+- item visualization page - 
+- about page - 
+- documentation page - 
+- disclaimer page - 
+- css for viewport none (<576px) - 
+- css for viewport xs (>576px) - 
+- css for viewport md (>768px) - 
+- css for viewport lg (>992px) - 
+- css for viewport xl (>1200px) - 
+- css for viewport xxl (>1400px) - 
