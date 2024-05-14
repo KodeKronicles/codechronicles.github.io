@@ -42,15 +42,15 @@
 	{
 		"@sort": "drum",
 		"shortName": "Drum machine",
-		"image": "img/drummachine.jpg",
+		"image": "img/drummachine.png",
 		"info":{
 			"Name": "Al-Jazari drum machine",
 			"Invention date": "12th century AD",
 			"Invention place": "Egypt",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Al Jazari drum machine was an early programmable automata with a drum machine with pegs that bumb into levers operating the percussion.",
+		"mediumInfo": "The Al Jazari drum machine was an early programmable automata with a drum machine with pegs that bumb into levers operating the percussion. Different rhythms and musical patterns were achievable by moving the pegs of the central cylinder around. The machine could have actually been a more complex mechanism representing an entire band, that could also perform facial actions during music production.",
 		"longInfo": "docs/drummachine.html"
 	},
 	{
@@ -63,8 +63,8 @@
 			"Invention place": "France",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "A music box is an automatic musical instrument in a box that produces musical notes by using a set of pins placed on a revolving cylinder or disc to pluck the tuned teeth of a steel comb.",
+		"mediumInfo": "A music box is an automatic musical instrument in a box that produces musical notes by using a set of pins placed on a revolving cylinder or disc to pluck the tuned teeth of a steel comb. The popular device best known today as a music box developed from musical snuff boxes of the 18th century. Some of the more complex boxes also contain a tiny drum and/or bells in addition to the metal comb.",
 		"longInfo": "docs/musicbox.html"
 	},
 	{
@@ -77,8 +77,8 @@
 			"Invention place": "France",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "Jacquard loom is a loom, in which the weaving pattern is programmable by a set of punched cards laced together in a sequence.",
+		"mediumInfo": "Jacquard loom is a loom, in which the weaving pattern is programmable by a set of punched cards laced together in a sequence. One complete card, consisting of multiple rows of holes, corresponded to one row of the design",
 		"longInfo": "docs/jacquardloom.html"
 	},
 	{
@@ -91,8 +91,8 @@
 			"Invention place": "England",
 			"Type of device": "Electromechanical"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was first created by Charles Babbage.",
+		"mediumInfo": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was first created by Charles Babbage. The name difference engine is derived from the method of divided differences, a way to interpolate or tabulate functions by using a small set of polynomial co-efficients.",
 		"longInfo": "docs/babbage.html"
 	}
 	,
@@ -176,8 +176,8 @@
 			"Invention place": "Silicon Valley",
 			"Type of device": "Electronic"
 		},
-		"shortInfo": "The Apple II was one of the first mass-produced personal computers, designed by Steve Wozniak and Steve Jobs.",
-		"mediumInfo": "Featuring a built-in keyboard and color graphics, the Apple II became a revolutionary tool for home users, schools, and businesses, sparking the personal computer revolution of the late 1970s and 1980s.",
+		"shortInfo": "The Apple II, launched in 1977, was a pioneering personal computer that introduced color graphics and opened up home computing to a broad audience.",
+		"mediumInfo": "The Apple II, released in 1977 by Apple Computer (now Apple Inc.), revolutionized the personal computer industry by offering the first successful computer with color graphics and an open architecture. Its user-friendly interface and expandability made it especially popular among consumers, igniting a wave of software and hardware innovations.",
 		"longInfo": "docs/appleII.html"
 	},
 	{
@@ -190,8 +190,8 @@
 			"Invention place": "New York",
 			"Type of device": "Electronic"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The IBM PC, introduced in 1981, set the standard for personal computing and established the widespread adoption of the PC architecture.",
+		"mediumInfo": "Released in 1981, the IBM Personal Computer (IBM PC) was a landmark in computing, standardizing the PC architecture that became foundational for the growth of personal computing. It featured an Intel 8088 processor and a user-friendly, open architecture that encouraged software and hardware compatibility across various platforms.",
 		"longInfo": "docs/ibmpc.html"
 	},
 	{
@@ -204,8 +204,8 @@
 			"Invention place": "London",
 			"Type of device": "Electronic"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The BBC Micro, launched in 1981, was designed to support computer education in the UK, becoming a staple in schools.",
+		"mediumInfo": "Introduced in 1981, the BBC Micro was developed by Acorn Computers as part of the British Broadcasting Corporation's Computer Literacy Project. This microcomputer was widely adopted in UK schools for its educational programs and robust programming capabilities, notably in BASIC.",
 		"longInfo": "docs/bbcmicro.html"
 	},
 	{
@@ -218,8 +218,8 @@
 			"Invention place": "EuroHPC JU",
 			"Type of device": "Electronic"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The CINECA Super-Leonardo, introduced in 1998, was one of Italy's most powerful supercomputers used primarily for scientific research.",
+		"mediumInfo": "Launched in 1998, the CINECA Super-Leonardo was developed as a high-performance supercomputing resource in Italy, primarily supporting academic and scientific research. It was renowned for its advanced computing power and speed, facilitating complex simulations and data analyses.",
 		"longInfo": "docs/leonardo.html"
 	},
 	{
@@ -232,8 +232,8 @@
 			"Invention place": "Silicon Valley",
 			"Type of device": "Electronic"
 		},
-		"shortInfo": "just a short information snippet",
-		"mediumInfo": "yadda yadda longer info but not super long you know the drill",
+		"shortInfo": "The Mac M1, released in 2020, is Apple's first computer with an ARM-based chip, delivering exceptional performance and efficiency.",
+		"mediumInfo": "In 2020, Apple introduced the Mac M1, the first Macintosh computer featuring Apple's custom ARM-based silicon, which significantly enhanced performance and energy efficiency. This technological shift represented a major leap in personal computing, integrating hardware and software more seamlessly than ever before.",
 		"longInfo": "docs/macm1.html"
 	}
   ]
