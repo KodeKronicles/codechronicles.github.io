@@ -43,14 +43,15 @@ function showInfo(index) {
 	var item = currentSelection[index]
 	currentSort = item['@sort']
 	inner("header",item.shortName) ;
-	inner("fullHeader",item.shortName) ;
+	inner("fullHeader",item.info.Name) ;
 	byId("img").src = item.image
 	byId("img").alt = item.shortName
 	createInfoTable(item)
 	inner("shortInfo","<p>"+item.shortInfo + "</p><p>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a></p>'); 
 	inner("mediumInfo","<p>"+item.mediumInfo + "</p><p>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>'); 
 	byId("longInfo").dataset['uri'] = item.longInfo
-	
+	currentNarrative = ""
+	currentValue = item.shortName
 	prepareNavigationButtons(index)
 }
 
