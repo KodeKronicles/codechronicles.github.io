@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", async function(event) {
 
 function prepareNarratives() {
 	currentSelection = items.filter( i => 
-		i.info[currentNarrative]?.includes(currentValue) 
+		i.info["Type of device"]?.includes(currentNarrative) 
 	)
 	currentSelection.sort( (i,j) =>  
 		i['@sort'] < j['@sort'] ? -1 : 1 
@@ -50,7 +50,6 @@ function showInfo(index) {
 	inner("shortInfo","<p>"+item.shortInfo + "</p><p>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a></p>'); 
 	inner("mediumInfo","<p>"+item.mediumInfo + "</p><p>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>'); 
 	byId("longInfo").dataset['uri'] = item.longInfo
-	currentNarrative = ""
 	currentValue = item.shortName
 	prepareNavigationButtons(index)
 }
@@ -87,11 +86,19 @@ function createInfoTable(item) {
 	inner("infoTable","",true) ;
 	for (i in item.info) {
 		if (item.info[i] !== null) {
-			if (narratives.includes(i)) {
+			if(i == "Invention date"){
 				var items = item.info[i].split(", ")
 				var val = []
 				for (j in items) {
-					val.push('<a class="button" role="button" href="#" onclick="changeNarrative(\''+i+'\',\''+items[j]+'\')">'+items[j]+'</a>')
+					val.push('<a class="button" role="button" href="#" onclick="changeNarrative(\''+"Timeline"+'\',\''+items[j]+'\')">'+items[j]+'</a>')
+				}
+				inner("infoTable","<tr><th>"+i+"</th><td>"+val.join(", ")+"</td></tr>", false)
+			}
+			else if (narratives.includes(item.info[i])) {
+				var items = item.info[i].split(", ")
+				var val = []
+				for (j in items) {
+					val.push('<a class="button" role="button" href="#" onclick="changeNarrative(\''+item.info[i]+'\',\''+items[j]+'\')">'+items[j]+'</a>')
 				}
 			inner("infoTable","<tr><th>"+i+"</th><td>"+val.join(", ")+"</td></tr>", false)
 			} else {
@@ -125,6 +132,7 @@ function prepareNavigationButtons(index) {
 function changeNarrative(narrative,value) {
 		currentNarrative = narrative
 		currentValue = value
+		inner('narrative', currentNarrative+": "+currentValue)
 		prepareNarratives()
 }
 
