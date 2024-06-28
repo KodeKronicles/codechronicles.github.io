@@ -13,3 +13,6 @@ navbar with all pages at the top of every page so:
 - css for viewport lg (>992px) - 
 - css for viewport xl (>1200px) - 
 - css for viewport xxl (>1400px) - 
+
+
+- add big round red circle with GET TICKETS
