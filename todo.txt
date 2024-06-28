@@ -1,12 +1,12 @@
-finish the objects and put them into json (simple html for the longest text) - everyone
-
 navbar with all pages at the top of every page so:
-- main museum cover page - 
-- exhibition (dropdown menu with one item?) - 
-- item visualization page - 
-- about page - 
-- documentation page - 
-- disclaimer page - 
+- main museum cover page - Elena/Alisa
+- exhibition (dropdown menu with one item?) - Elena/Alisa
+- item visualization page - Hubert
+- about page - ???
+- documentation page - Hubert 
+- disclaimer page - Hubert
+- logo - Elena
+
 - css for viewport none (<576px) - 
 - css for viewport xs (>576px) - 
 - css for viewport md (>768px) - 
