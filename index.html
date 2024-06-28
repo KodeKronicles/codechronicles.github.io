@@ -6,42 +6,214 @@
     <title>Code Chronicles</title>
     <link href="styles.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha384-o8PbTcdW9c2V1A+Wee3a0pYaZw3F2ZjEuYP30F/6s2UnbE59wwTpHXpQqITltA5r" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Code Chronicles</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <header class="header-background" style="background-image: url('img x alice/whatsapp.jpeg'); height: 100vh;">
+        <div class="header-overlay"></div>
+        <nav class="navbar navbar-expand-lg navbar-custom">
+            <a class="navbar-brand" href="#">
+                <img src="img/logo.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+                CODEC MUSEUM
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li>
-                        <a class="nav-link active" href="index.html">Home</a>
-                    </li>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Exhibitions</a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="exhibition.html">Code Chronicles</a></li>
+                        <a class="nav-link dropdown-toggle" href="#" id="exploreDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Explore</a>
+                        <ul class="dropdown-menu" aria-labelledby="exploreDropdown">
+                            <li><a class="dropdown-item" href="#">Exhibit 1</a></li>
+                            <li><a class="dropdown-item" href="#">Exhibit 2</a></li>
+                            <li><a class="dropdown-item" href="#">Exhibit 3</a></li>
                         </ul>
                     </li>
-                    <li>
-                        <a class="nav-link" href="itemvisualisation.html">Item visualisation</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="visitDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Visit</a>
+                        <ul class="dropdown-menu" aria-labelledby="visitDropdown">
+                            <li><a class="dropdown-item" href="#">Hours & Admission</a></li>
+                            <li><a class="dropdown-item" href="#">Directions</a></li>
+                            <li><a class="dropdown-item" href="#">Maps?</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a class="nav-link" href="about.html">About</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="joinGiveDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Our Project</a>
+                        <ul class="dropdown-menu" aria-labelledby="joinGiveDropdown">
+                            <li><a class="dropdown-item" href="#">Documentation</a></li>
+                            <li><a class="dropdown-item" href="#">Disclaimer</a></li>
+                        </ul>
                     </li>
-                    <li>
-                        <a class="nav-link" href="documentation.html">Documentation</a>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="disclaimer.html">Disclaimer</a>
+                    <li class="nav-item">
+                        <a class="btn btn-custom" href="#">Buy Tickets?</a>
                     </li>
                 </ul>
             </div>
+        </nav>
+        <div class="container header-content text-center">
+            <h1>Explore the World Through Code</h1>
+            <p>Join us for a journey of discovery and innovation.</p>
         </div>
-    </nav>
-    <h3>work in progress innit</h3>
+        <div class="bottom-info">
+            <p>
+                Open today from 9:30 a.m. to 5:30 p.m. |
+                <a href="#">MAP OF THE MUSEUM</a> |
+                <a href="#">Ticket Prices??</a>
+            </p>
+        </div>
+    </header>
+    
+
+    <div class="container text-center my-5">
+        <h1>The CODEC is a public learning laboratory where you can explore the world through science, art, and human perception.</h1>
+    </div>
+    <div class="container">
+        <div class="announcement">
+            <strong>Special Closure Notice</strong>
+            <p>Planning to visit the museum? <strong>The CODEC will be closed for After Dark on Thursday, July 4th.</strong> The museum will remain open during regular hours.</p>
+        </div>
+    </div>
+
+    <div class="container highlight-section">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="path/to/image1.jpg" class="card-img-top" alt="ExtraOrdinary!">
+                    <div class="card-body">
+                        <h5 class="card-title">ExtraOrdinary!</h5>
+                        <p class="card-text">See ordinary become extraordinary! Nine artists transform LEGO® pieces, shoes, cardboard, miles of string, and other everyday things into stunning and imaginative installations. Plus explore your inner artist-scientist with hands-on DIY building and programs for all ages.</p>
+                        <p>Now–Sept 8, 2024</p>
+                        <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="card">
+                    <img src="path/to/image2.jpg" class="card-img-top" alt="Field Trip Reservations">
+                    <div class="card-body">
+                        <h5 class="card-title">Field Trip Reservations are Open</h5>
+                        <p class="card-text">Get a head start on your field trip planning for the 2024-2025 school year. Whether you're ready to jump in or need to plan ahead with your colleagues, we're here to help you take the next step for an unforgettable year with your students.</p>
+                        <a href="#" class="btn btn-light">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container text-center my-5">
+        <h1>VISIT US</h1>
+    </div>
+
+
+    <div id="carouselExampleCaptions" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img x alice/appleII1.jpg" class="d-block w-100 carousel-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Narrative1</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img x alice/appleIIa.jpg" class="d-block w-100 carousel-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Narrative 2</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="img x alice/appleIIb.jpg" class="d-block w-100 carousel-image" alt="...">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>TNarrative 3</h5>
+              <p>Some representative placeholder content for the third slide.</p>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+
+      <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="logo">
+                        <span style="font-size: 1.5em; font-weight: bold;">code</span><span style="font-size: 2em;">BO</span><span style="font-size: 1.5em; font-weight: bold;">chronicles</span>
+                    </div>
+                    <div class="contact-info">
+                        <p>BOLOGNA</p>
+                        <p>BOLOGNA</p>
+                        <p>BOLOGNA, BO 38494</p>
+                        <p>057sjnsjngn</p>
+                        <a href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Plan Your Visit</a></li>
+                            <li><a href="#">Calendar</a></li>
+                            <li><a href="#">Accessibility</a></li>
+                            <li><a href="#">Getting Here</a></li>
+                            <li><a href="#">Store</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="links">
+                        <ul>
+                            <li><a href="#">Event</a></li>
+                            <li><a href="#">Jobs</a></li>
+                            <li><a href="#">Volunteer</a></li>
+                            <li><a href="#">Press Office</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <button class="btn btn-custom">Visit</button>
+                    <button class="btn btn-custom">Join</button>
+                    <button class="btn btn-custom">Give</button>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12 newsletter">
+                    <button class="btn btn-light">Sign up for our e-newsletters.</button>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12 social-icons">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-tiktok"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-12">
+                    <p>CODE CHRONICLES</p>
+                    <p>&copy; 2024 COds | <a href="#">Terms of Service</a> | <a href="#">Privacy Policy</a> | <a href="#">YHi Privacy Rights</a> | <a href="#">Cookies</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>

@@ -103,3 +103,144 @@ footer {
     transition: transform 0.5s ease;
 }
 
+
+.carousel-image {
+    height: 400px; /* adjust the height to your liking */
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+  }
+
+
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
+.footer .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.footer .contact-info,
+.footer .links {
+    margin-bottom: 20px;
+}
+.footer .links ul {
+    list-style: none;
+    padding: 0;
+}
+.footer .links ul li {
+    margin-bottom: 10px;
+}
+.footer .social-icons i {
+    font-size: 24px;
+    margin-right: 15px;
+}
+.footer .btn-custom {
+    border: 1px solid #fff;
+    color: #fff;
+    background: none;
+    margin: 5px;
+    padding: 10px 20px;
+}
+.footer .btn-custom:hover {
+    background-color: #fff;
+    color: #000;
+}
+.footer .newsletter {
+    margin: 20px 0;
+}
+
+
+.announcement {
+    background-color: #222;
+    color: #fff;
+    padding: 10px;
+    margin: 20px 0;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.highlight-section {
+    background-color: #000;
+    color: #fff;
+    padding: 40px 0;
+}
+
+.highlight-section .card {
+    background-color: #333;
+    border: none;
+    color: #fff;
+}
+
+.highlight-section .card img {
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.highlight-section .card-title,
+.highlight-section .card-text {
+    margin-bottom: 20px;
+}
+
+
+.navbar-custom {
+    background: transparent;
+    padding: 1rem 2rem;
+}
+.navbar-custom .navbar-brand {
+    font-weight: bold;
+    color: #fff;
+}
+.navbar-custom .nav-link {
+    color: #fff;
+    margin-right: 1rem;
+}
+.navbar-custom .nav-link:hover {
+    color: #ddd;
+}
+.navbar-custom .btn-custom {
+    background-color: #6c757d;
+    color: white;
+    border: none;
+}
+.header-background {
+    background: url('your-background-image.jpg') no-repeat center center;
+    background-size: cover;
+    height: 100vh;
+    color: white;
+    position: relative;
+}
+.header-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+}
+.header-content {
+    position: relative;
+    z-index: 2;
+    padding-top: 150px;
+}
+.bottom-info {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    text-align: center;
+    font-size: 1.1rem;
+}
+.bottom-info a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
