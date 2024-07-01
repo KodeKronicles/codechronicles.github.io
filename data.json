@@ -14,7 +14,8 @@
 	{
 		"@sort": "abacus",
 		"shortName": "Abacus",
-		"image": "img/abacus.jpg",
+		"image1": "img/abacus.jpg",
+		"image2": "img/abacus1.jpg",
 		"info":{
 			"Name": "Abacus",
 			"Invention date": "3000 BC",
@@ -28,7 +29,8 @@
 	{
 		"@sort": "autoflute",
 		"shortName": "Automatic flute",
-		"image": "img/autoflute.jpg",
+		"image1": "img/autoflute.jpg",
+		"image2": "img/autoflute1.jpg",
 		"info":{
 			"Name": "Banu Musa automatic flute",
 			"Invention date": "9th century AD",
@@ -42,7 +44,8 @@
 	{
 		"@sort": "drum",
 		"shortName": "Drum machine",
-		"image": "img/drummachine.png",
+		"image1": "img/drummachine.png",
+		"image2": "img/drummachine1.png",
 		"info":{
 			"Name": "Al-Jazari drum machine",
 			"Invention date": "12th century AD",
@@ -56,7 +59,8 @@
 	{
 		"@sort": "musicbox",
 		"shortName": "Music box",
-		"image": "img/musicbox.jpg",
+		"image1": "img/musicbox.jpg",
+		"image2": "img/musicbox1.jpg",
 		"info":{
 			"Name": "Music box",
 			"Invention date": "1796 AD",
@@ -70,7 +74,8 @@
 	{
 		"@sort": "loom",
 		"shortName": "Loom",
-		"image": "img/loom.jpg",
+		"image1": "img/loom.jpg",
+		"image2": "img/loom1.jpg",
 		"info":{
 			"Name": "Jacquard loom",
 			"Invention date": "1800 AD",
@@ -84,7 +89,8 @@
 	{
 		"@sort": "babbage",
 		"shortName": "Difference engine",
-		"image": "img/babbage.jpg",
+		"image1": "img/babbage.jpg",
+		"image2": "img/babbage1.jpg",
 		"info":{
 			"Name": "Babbage's difference engine",
 			"Invention date": "1822 AD",
@@ -99,7 +105,8 @@
 	{
 		"@sort": "Hollerith machine",
 		"shortName": "Hollerith machine",
-		"image": "img/HollerithCunsusMachine.jpg",
+		"image1": "img/HollerithCunsusMachine.jpg",
+		"image2": "img/HollerithCunsusMachine.jpg",
 		"info":{
 			"Name": "Hollerith Census machine",
 			"Invention date": "1890",
@@ -113,7 +120,8 @@
 	  {
 		"@sort": "COLOSSUS",
 		"shortName": "COLOSSUS",
-		"image": "img/COLOSSUS.jpg",
+		"image1": "img/COLOSSUS.jpg",
+		"image2": "img/COLOSSUS.jpg",
 		"info":{
 			"Name": "COLOSSUS",
 			"Invention date": "1943-1944",
@@ -127,7 +135,8 @@
 	  {
 		"@sort": "Harvard Marck I",
 		"shortName": "Harvard Marck I",
-		"image": "img/Harvard Marck I.jpg",
+		"image1": "img/Harvard Marck I.jpg",
+		"image2": "img/Harvard Marck I.jpg",
 		"info":{
 			"Name": "Harvard Marck I",
 			"Invention date": "1944",
@@ -140,7 +149,8 @@
 	},{
 		"@sort": "ENIAC",
 		"shortName": "ENIAC",
-		"image": "img/ENIAC.jpg",
+		"image1": "img/ENIAC.jpg",
+		"image2": "img/ENIAC.jpg",
 		"info":{
 			"Name": "ENIAC",
 			"Invention date": "1945",
@@ -154,7 +164,8 @@
 	  {
 		"@sort": "Commodore PET",
 		"shortName": "Commodore PET",
-		"image": "img/CommodorePET.jpg",
+		"image1": "img/CommodorePET.jpg",
+		"image2": "img/CommodorePET.jpg",
 		"info":{
 			"Name": "Commodore PET",
 			"Invention date": "1977",
@@ -169,7 +180,8 @@
 	  {
 		"@sort": "appleII",
 		"shortName": "Apple II",
-		"image": "img/appleII.jpg",
+		"image1": "img/appleII.jpg",
+		"image2": "img/appleII.jpg",
 		"info":{
 			"Name": "Apple II",
 			"Invention date": "1977 AD",
@@ -183,7 +195,8 @@
 	{
 		"@sort": "ibmpc",
 		"shortName": "IBM PC",
-		"image": "img/ibmpc.jpg",
+		"image1": "img/ibmpc.jpg",
+		"image2": "img/ibmpc.jpg",
 		"info":{
 			"Name": "IBM PC",
 			"Invention date": "1981 AD",
@@ -197,7 +210,8 @@
 	{
 		"@sort": "bbcmicro",
 		"shortName": "BBC micro",
-		"image": "img/bbcmicro.jpg",
+		"image1": "img/bbcmicro.jpg",
+		"image2": "img/bbcmicro.jpg",
 		"info":{
 			"Name": "BBC micro",
 			"Invention date": "1981 AD",
@@ -211,7 +225,8 @@
 	{
 		"@sort": "leonardo",
 		"shortName": "CINECA super-Leonardo",
-		"image": "img/leonardo.jpg",
+		"image1": "img/leonardo.jpg",
+		"image2": "img/leonardo.jpg",
 		"info":{
 			"Name": "CINECA super-Leonardo",
 			"Invention date": "1998 AD",
@@ -225,7 +240,8 @@
 	{
 		"@sort": "macm1",
 		"shortName": "Mac M1",
-		"image": "img/macm1.jpg",
+		"image1": "img/macm1.jpg",
+		"image2": "img/macm1.jpg",
 		"info":{
 			"Name": "Mac M1",
 			"Invention date": "2020 AD",
