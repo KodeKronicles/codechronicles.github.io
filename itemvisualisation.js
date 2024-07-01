@@ -44,11 +44,13 @@ function showInfo(index) {
 	currentSort = item['@sort']
 	inner("header",item.shortName) ;
 	inner("fullHeader",item.info.Name) ;
-	byId("img").src = item.image
-	byId("img").alt = item.shortName
+	byId("img1").src = item.image1
+	byId("img1").alt = item.shortName
+	byId("img2").src = item.image2
+	byId("img2").alt = item.shortName
 	createInfoTable(item)
-	inner("shortInfo","<p>"+item.shortInfo + "</p><p>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a></p>'); 
-	inner("mediumInfo","<p>"+item.mediumInfo + "</p><p>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>'); 
+	inner("shortInfo","<p>"+item.shortInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem;'>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a></p>'); 
+	inner("mediumInfo","<p>"+item.mediumInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem;'>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>'); 
 	byId("longInfo").dataset['uri'] = item.longInfo
 	currentValue = item.shortName
 	prepareNavigationButtons(index)
@@ -65,7 +67,7 @@ function less() {
 	hide("longInfo") ;
 }
 function muchMore() {
-	var uri = byId("longInfo").dataset['uri']
+	var uri = byId("longInfo").dataset['uri'];
 	fetch(uri)
 	.then(response => response.text())
 	.then(data => {	
