@@ -49,8 +49,8 @@ function showInfo(index) {
 	byId("img2").src = item.image2
 	byId("img2").alt = item.shortName
 	createInfoTable(item)
-	inner("shortInfo","<p>"+item.shortInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem;'>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="more()">Tell me more...</a></p>'); 
-	inner("mediumInfo","<p>"+item.mediumInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem;'>" + '<a type="button" class="btn btn-outline-primary btn-sm" onclick="less()">Tell me less</a> or <a type="button" class="btn btn-outline-primary btn-sm" onclick="muchMore()">Tell me even more...</a></p>'); 
+	inner("shortInfo","<p style='border-bottom-width: 4px; border-bottom-style: solid; border-bottom-color: #333; padding-top: 1.5rem; padding-bottom: 1.5rem;'>"+item.shortInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem; text-align: center;'>" + '<a type="button" class="btn btn-outline-danger btn-sm" onclick="more()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me more...</a></p>'); 
+	inner("mediumInfo","<p style='border-bottom-width: 4px; border-bottom-style: solid; border-bottom-color: #333; padding-top: 1.5rem; padding-bottom: 1.5rem;'>"+item.mediumInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem; text-align: center;'>" + '<a type="button" class="btn btn-outline-danger btn-sm" onclick="less()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me less</a> or <a type="button" class="btn btn-outline-danger btn-sm" onclick="muchMore()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me even more...</a></p>'); 
 	byId("longInfo").dataset['uri'] = item.longInfo
 	currentValue = item.shortName
 	prepareNavigationButtons(index)

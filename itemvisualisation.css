@@ -51,13 +51,6 @@
         padding-top: 1rem;
     }
 
-    #item-info-header{
-        border-top-width: 4px;
-        border-top-style: solid;
-        border-top-color: #333;
-        padding-top: 1.5rem;
-        padding-bottom: 1.5rem;
-    }
 }
 
 body:before {
@@ -73,4 +66,20 @@ body:before {
     background-repeat: repeat;
     background-position: 0 0;
     background-size: cover;
-  }
+}
+
+#item-info-header{
+    border-top-width: 4px;
+    border-top-style: solid;
+    border-top-color: #333;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+#buttonPrevious{
+    --bs-btn-padding-x: .5rem;
+}
+
+#buttonNext{
+    --bs-btn-padding-x: .5rem;
+}
