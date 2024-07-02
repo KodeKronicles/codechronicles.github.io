@@ -22,7 +22,8 @@ body:before {
     margin-right: auto;
     margin-left: auto;
     color: #eee;
-    background-color: var(--bs-body-bg);
+    margin-top: 1vh;
+    padding-top: 1vh;
 }
 
 #documentation-navbar{
@@ -49,7 +50,7 @@ body:before {
     }
 
     .scrollspy{
-        height: 94vh;
+        height: 90vh;
         overflow: auto;
     }
 }
@@ -64,7 +65,7 @@ body:before {
     }
 
     .scrollspy{
-        height: 94vh;
+        height: 90vh;
         overflow: auto;
     }
 }
@@ -79,7 +80,7 @@ body:before {
     }
 
     .scrollspy{
-        height: 94vh;
+        height: 90vh;
         overflow: auto;
     }
 }
@@ -96,7 +97,7 @@ body:before {
     }
 
     .scrollspy{
-        height: 94vh;
+        height: 90vh;
         overflow: auto;
     }
 }
