@@ -41,140 +41,169 @@
             </div>
         </div>
     </nav>
-    <main>
-        <div class="container-documentation card">
-            <div class="row">
-                <div class="col-sm-12 col-md-4 col-lg-3 col-xl-2">
-                    <nav id="documentation-navbar" class="h-100 flex-column align-items-stretch pe-4 border-end">
-                        <nav class="nav nav-pills flex-column">
-                            <a class="nav-link" href="#item1">1 - ???</a>
-                            <a class="nav-link" href="#item2">2 - something</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1" href="#item2-1">something idk</a>
-                                <a class="nav-link ms-3 my-1" href="#item2-2">something else</a>
-                                <a class="nav-link ms-3 my-1" href="#item2-3">something entirely else</a>
-                            </nav>
-                            <a class="nav-link" href="#item3">3 - anything</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1" href="#item3-1">anything idk</a>
-                                <a class="nav-link ms-3 my-1" href="#item3-2">anything else</a>
-                                <a class="nav-link ms-3 my-1" href="#item3-3">anything entirely else</a>
-                            </nav>
-                            <a class="nav-link" href="#item4">4 - ??????</a>
-                            <a class="nav-link" href="#item5">5 - nothing</a>
-                            <nav class="nav nav-pills flex-column">
-                                <a class="nav-link ms-3 my-1" href="#item5-1">nothing idk</a>
-                                <a class="nav-link ms-3 my-1" href="#item5-2">nothing else</a>
-                                <a class="nav-link ms-3 my-1" href="#item5-3">nothing entirely else</a>
-                            </nav>
-                        </nav>
+    <div class="container-documentation bd-gutter mt-1 my-md-1 bd-layout">
+        <aside class="bd-sidebar">
+            <div class="offcanvas-lg offcanvas-start" tabindex="-1" id="bdSidebar" aria-labelledby="bdSidebarOffcanvasLabel">
+                <div class="offcanvas-header border-bottom">
+                    <h5 class="offcanvas-title" id="bdSidebarOffcanvasLabel">???</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" data-bs-target="#bdSidebar"></button>
+                </div>
+                <div class="offcanvas-body">
+                    <nav class="bd-links w-100" id="bd-docs-nav" aria-label="Docs navigation">
+                        <ul class="bd-links-nav list-unstyled mb-0 pb-3 pb-md-2 pe-lg-2">
+                            <li class="bd-links-group py-2">
+                                <strong>1 - something</strong>
+                                <ul class="list-unstyled fw-normal pb-2 small">
+                                    <li>
+                                        <a href="#1-1" class="bd-links-link d-inline-block rounded active" aria-current="page">1.1 - something idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#1-2" class="bd-links-link d-inline-block rounded active" aria-current="page">1.2 - something else idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#1-3" class="bd-links-link d-inline-block rounded active" aria-current="page">1.3 - something different w/e</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bd-links-group py-2">
+                                <strong>2 - anything</strong>
+                                <ul class="list-unstyled fw-normal pb-2 small">
+                                    <li>
+                                        <a href="#2-1" class="bd-links-link d-inline-block rounded active" aria-current="page">2.1 - anything idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#2-2" class="bd-links-link d-inline-block rounded active" aria-current="page">2.2 - anything else idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#2-3" class="bd-links-link d-inline-block rounded active" aria-current="page">2.3 - anything different w/e</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bd-links-group py-2">
+                                <strong>3 - nothing</strong>
+                                <ul class="list-unstyled fw-normal pb-2 small">
+                                    <li>
+                                        <a href="#3-1" class="bd-links-link d-inline-block rounded active" aria-current="page">3.1 - nothing idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#3-2" class="bd-links-link d-inline-block rounded active" aria-current="page">3.2 - nothing else idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#3-3" class="bd-links-link d-inline-block rounded active" aria-current="page">3.3 - nothing different w/e</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bd-links-group py-2">
+                                <strong>4 - ???</strong>
+                                <ul class="list-unstyled fw-normal pb-2 small">
+                                    <li>
+                                        <a href="#4-1" class="bd-links-link d-inline-block rounded active" aria-current="page">4.1 - ??? idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#4-2" class="bd-links-link d-inline-block rounded active" aria-current="page">4.2 - ??? else idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#4-3" class="bd-links-link d-inline-block rounded active" aria-current="page">4.3 - ??? different w/e</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="bd-links-group py-2">
+                                <strong>5 - ??????</strong>
+                                <ul class="list-unstyled fw-normal pb-2 small">
+                                    <li>
+                                        <a href="#5-1" class="bd-links-link d-inline-block rounded active" aria-current="page">5.1 - ?????? idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#5-2" class="bd-links-link d-inline-block rounded active" aria-current="page">5.2 - ?????? else idk</a>
+                                    </li>
+                                    <li>
+                                        <a href="#5-3" class="bd-links-link d-inline-block rounded active" aria-current="page">5.3 - ?????? different w/e</a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
                     </nav>
                 </div>
-                <div class="col-sm-12 col-md-8 col-lg-9 col-xl-10">
-                    <div data-bs-spy="scroll" data-bs-target="documentation-navbar" data-bs-smooth-scroll="true" class="scrollspy" tabindex="0">
-                        <div id="item1">
-                            <h3>1 - ???</h3>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item2">
-                            <h3>2 - something</h3>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item2-1">
-                            <h4>2.1 - something idk</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item2-2">
-                            <h4>2.2 - something else</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item2-3">
-                            <h4>2.3 - something entirely else</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item3">
-                            <h3>3 - anything</h3>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item3-1">
-                            <h4>3.1 - anything idk</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item3-2">
-                            <h4>3.2 - anything else</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item3-3">
-                            <h4>3.3 - anything entirely else</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item4">
-                            <h3>4 - ??????</h3>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item5">
-                            <h3>5 - nothing</h3>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item5-1">
-                            <h4>5.1 - nothing idk</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item5-2">
-                            <h4>5.2 - nothing else</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
-                        <div id="item5-3">
-                            <h4>5.3 - nothing entirely else</h4>
-                            <p>blablabla</p>
-                            <p>blablablablablablablablabla</p>
-                            <p>bla</p>
-                            <p>blablablabla</p>
-                        </div>
+            </div>
+        </aside>
+        <main class="bd-main order-1">
+            <div class="bd-both">
+                <div class="bd-intro pt-2 ps-lg-2">
+                    <div class="flex-md-row-reverse align-items-center justify-content-between">
+                        <h1 class="bd-title mb-0" id="content">1 - something</h1>
                     </div>
                 </div>
+                <div class="bd-content ps-lg-2">
+                    <h2 id="1-1">1.1 - something idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="1-2">1.2 - something else idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="1-3">1.3 - something different w/e</h2>
+                    <p>Lorem ipsum</p>
+                </div>
             </div>
-        </div>
-    </main>
+            <div class="bd-both">
+                <div class="bd-intro pt-2 ps-lg-2">
+                    <div class="flex-md-row-reverse align-items-center justify-content-between">
+                        <h1 class="bd-title mb-0" id="content">2 - anything</h1>
+                    </div>
+                </div>
+                <div class="bd-content ps-lg-2">
+                    <h2 id="2-1">2.1 - anything idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="2-2">2.2 - anything else idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="2-3">2.3 - anything different w/e</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="bd-both">
+                <div class="bd-intro pt-2 ps-lg-2">
+                    <div class="flex-md-row-reverse align-items-center justify-content-between">
+                        <h1 class="bd-title mb-0" id="content">3 - nothing</h1>
+                    </div>
+                </div>
+                <div class="bd-content ps-lg-2">
+                    <h2 id="3-1">3.1 - nothing idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="3-2">3.2 - nothing else idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="3-3">3.3 - nothing different w/e</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="bd-both">
+                <div class="bd-intro pt-2 ps-lg-2">
+                    <div class="flex-md-row-reverse align-items-center justify-content-between">
+                        <h1 class="bd-title mb-0" id="content">4 - ???</h1>
+                    </div>
+                </div>
+                <div class="bd-content ps-lg-2">
+                    <h2 id="4-1">4.1 - ??? idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="4-2">4.2 - ??? else idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="4-3">4.3 - ??? different w/e</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+            <div class="bd-both">
+                <div class="bd-intro pt-2 ps-lg-2">
+                    <div class="flex-md-row-reverse align-items-center justify-content-between">
+                        <h1 class="bd-title mb-0" id="content">5 - ??????</h1>
+                    </div>
+                </div>
+                <div class="bd-content ps-lg-2">
+                    <h2 id="5-1">5.1 - ?????? idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="5-2">5.2 - ?????? else idk</h2>
+                    <p>Lorem ipsum</p>
+                    <h2 id="5-3">5.3 - ?????? different w/e</h2>
+                    <p>Lorem ipsum</p>
+                </div>
+            </div>
+        </main>
+    </div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
