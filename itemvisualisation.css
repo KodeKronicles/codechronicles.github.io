@@ -13,11 +13,19 @@
     .container-itemvisualisation {
         max-width:540px
     }
+
+    #table{
+        margin-bottom: 0%;
+    }
 }
 
 @media (min-width: 768px) {
     .container-itemvisualisation {
         max-width:720px
+    }
+
+    #table{
+        margin-bottom: 88%;
     }
 }
 
@@ -25,21 +33,25 @@
     .container-itemvisualisation {
         max-width:960px
     }
+
+    #table{
+        margin-bottom: 145%;
+    }
 }
 
 @media (min-width: 1200px) {
     .container-itemvisualisation {
         max-width:1140px
     }
+
+    #table{
+        margin-bottom: 155%;
+    }
 }
 
 @media (min-width: 1400px) {
     .container-itemvisualisation {
         max-width:1320px
-    }
-
-    .row{
-        padding-bottom: 2rem;
     }
 
     .limitHeight{
@@ -51,6 +63,9 @@
         padding-top: 1rem;
     }
 
+    #table{
+        margin-bottom: 170%;
+    }
 }
 
 body:before {
