@@ -9,9 +9,9 @@
     <script src="itemvisualisation.js"></script>
 </head>
 <body class="body-itemvisualisation">
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Code Chronicles</a>
+            <a class="navbar-brand" href="index.html"><img src="img/templogo.png" alt="Bootstrap" width="30" height="24"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -49,37 +49,31 @@
 				<div class="card-header" style="display:none;">
 					<h2 class="text-center" id="header"></h2>
 				</div>
-				<div class="card-header row align-items-center d-flex justify-content-end">
-					<div class="col-md-2 text-center">
+				<div class="card-header row align-items-center d-flex justify-content-end" id="itemCardHeader">
+					<div class="col-sm-12 col-md-2 text-center">
 						<button href="#"  type="button" class="btn btn-danger" id="buttonPrevious">Previous</button>
 					</div>
-					<div class="col-md-8 text-center">
+					<div class="col-sm-12 col-md-8 text-center">
 						<h3 id="narrative"></h3>
 					</div>
-					<div class="col-md-2 text-center">
+					<div class="col-sm-12 col-md-2 text-center">
 						<button href="#"  type="button" class="btn btn-danger" id="buttonNext">Next</button>
 					</div>
 				</div>
 			<div class="card-body">
 			<div class="row">
-					<div class="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">
-						<div id="img1-div">
-							<img id ="img1" src="" class="card-img-top img-fluid limitHeight m-auto" alt="">
-						</div>
-					</div>
-			
 					<div class="col-sm-12 col-md-4">		
 						<h5 class="card-title text-center" id="item-data-header">
 							Data
 						</h5>
-						<table class="table table-striped border d-md-table" id="table">
-							<tbody class="table-striped"  id="infoTable"></tbody>
+						<table class="table d-md-table" id="table">
+							<tbody class="table-striped" id="infoTable"></tbody>
 						</table>
 					</div>
 
-					<div class="col-sm-12 col-md-4 d-flex align-items-center justify-content-center">
-						<div id="img2-div">
-							<img id ="img2" src="" class="card-img-top img-fluid limitHeight m-auto" alt="">
+					<div class="col-sm-12 col-md-8 d-flex align-items-center justify-content-center">
+						<div id="img1-div">
+							<img id ="img1" src="" class="card-img-top img-fluid limitHeight m-auto" alt="">
 						</div>
 					</div>
 				</div>

@@ -14,23 +14,23 @@
 	{
 		"@sort": "abacus",
 		"shortName": "Abacus",
-		"image1": "img/abacus.jpg",
-		"image2": "img/abacus1.png",
+		"image1": "img/abacus.png",
+		"copyright": "© IKEA",
 		"info":{
 			"Name": "Abacus",
 			"Invention date": "3000 BC",
 			"Invention place": "Mesopotamia",
 			"Type of device": "Mechanical"
 		},
-		"shortInfo": "A hand-operated calculating tool consisting of a two-dimensional array of slidable items. Still in use to this day, the abacus has an odvantage of not requiring paper and pen, nor does it require electricity, and it's also used as the standard by vision-impaired people. First appearing in early 3rd millenium BC Mesopotamia, it spread throughout the Old World and was used as a calculating device from Ireland to Japan.",
+		"shortInfo": "A hand-operated calculating tool consisting of a two-dimensional array of slidable items. Still in use to this day, the abacus has an advantage of not requiring paper and pen, nor does it require electricity, and it's also used as the standard by vision-impaired people. First appearing in early 3rd millenium BC Mesopotamia, it spread throughout the Old World and was used as a calculating device from Ireland to Japan.",
 		"mediumInfo": "A hand-operated calculating tool consisting of a two-dimensional array of slidable items. The English word 'abacus' dates to a 14th century loanword borrowed from Latin describing a sandboard abacus. The Latin word comes from ancient Greek ἄβαξ (abax): a piece of rectangular material; something without a base. The Greek word may have been borrowed from Semitic languages (eg. Hebrew ābāq (אבק) - dust). The first known abaci appeared in early 3rd millenium Mesopotamia, holding a table of columns delimiting successive orders of magnitude of Sumerian sexagesimal number system. The device could have been spread to different regions under the Persian Empire, as the earliest evidence of it being in use elsewhere is dated to 5th century BC Greece at the earliest. The Roman and Chinese abaci have used a bi-quinary coded decimal system - each column consisted of two smaller ones, with the top one having a singular bead representing five, and the bottom column having four bead representing one. The Old-World abacus has spread to Japan and Korea in 14th century AD. On the other side of the Atlantic Ocean, other hand calculated tools were invented, such as the Mesoamerican nepohualtzintzin and the Incan yupana. Today, abacuses are still used in education, especially for vision-impaired students, for which it serves as a primary calculating tool throughout their lifes. Binary abaci are also used to visualise the calculating processes of computers.",
 		"longInfo": "docs/abacus.html"
 	},
 	{
 		"@sort": "autoflute",
 		"shortName": "Automatic flute",
-		"image1": "img/autoflute.jpg",
-		"image2": "img/autoflute1.jpg",
+		"image1": "img/autoflute.png",
+		"copyright": "© ResearchGate",
 		"info":{
 			"Name": "Banu Musa automatic flute",
 			"Invention date": "9th century AD",
@@ -45,7 +45,7 @@
 		"@sort": "drum",
 		"shortName": "Drum machine",
 		"image1": "img/drummachine.png",
-		"image2": "img/drummachine1.jpg",
+		"copyright": "© History of Information",
 		"info":{
 			"Name": "Al-Jazari drum machine",
 			"Invention date": "12th century AD",
@@ -59,8 +59,8 @@
 	{
 		"@sort": "musicbox",
 		"shortName": "Music box",
-		"image1": "img/musicbox.jpg",
-		"image2": "img/musicbox1.jpg",
+		"image1": "img/musicbox.png",
+		"copyright": "© Spilsbury",
 		"info":{
 			"Name": "Music box",
 			"Invention date": "1796 AD",
@@ -74,8 +74,8 @@
 	{
 		"@sort": "loom",
 		"shortName": "Loom",
-		"image1": "img/loom.jpg",
-		"image2": "img/loom1.jpg",
+		"image1": "img/loom.png",
+		"copyright": "© Science and Industry Museum",
 		"info":{
 			"Name": "Jacquard loom",
 			"Invention date": "1800 AD",
@@ -89,8 +89,8 @@
 	{
 		"@sort": "babbage",
 		"shortName": "Difference engine",
-		"image1": "img/babbage.jpg",
-		"image2": "img/babbage1.jpg",
+		"image1": "img/babbage.png",
+		"copyright": "© Britannica",
 		"info":{
 			"Name": "Babbage's difference engine",
 			"Invention date": "1822 AD",
@@ -105,8 +105,8 @@
 	{
 		"@sort": "Hollerith machine",
 		"shortName": "Hollerith machine",
-		"image1": "img/HollerithCunsusMachine.jpg",
-		"image2": "img/HollerithCunsusMachine.jpg",
+		"image1": "img/hollerith.png",
+		"copyright": "© EarlyComputers",
 		"info":{
 			"Name": "Hollerith Census machine",
 			"Invention date": "1890",
@@ -115,13 +115,13 @@
 		},
 		"shortInfo": "The Hollerith Census Machine, developed in 1890, revolutionized data processing by automating the tabulation of census data, significantly reducing time and labor.",
 		"mediumInfo": "In 1890, Herman Hollerith introduced a groundbreaking invention, the Hollerith Census Machine. This electro-mechanical marvel streamlined the tedious process of census data tabulation. Using punched cards and mechanical counters, it enabled rapid computation, marking a significant leap forward in information management.",
-		"longInfo": "docs/HollerithCunsusMachine.html"
+		"longInfo": "docs/Hollerith Census machine.html"
 	},
 	  {
 		"@sort": "COLOSSUS",
 		"shortName": "COLOSSUS",
-		"image1": "img/COLOSSUS.jpg",
-		"image2": "img/COLOSSUS.jpg",
+		"image1": "img/COLOSSUS.png",
+		"copyright": "© New Atlas",
 		"info":{
 			"Name": "COLOSSUS",
 			"Invention date": "1943-1944",
@@ -133,24 +133,24 @@
 		"longInfo": "docs/COLOSSUS.html"
 	},
 	  {
-		"@sort": "Harvard Marck I",
-		"shortName": "Harvard Marck I",
-		"image1": "img/Harvard Marck I.jpg",
-		"image2": "img/Harvard Marck I.jpg",
+		"@sort": "Harvard Mark I",
+		"shortName": "Harvard Mark I",
+		"image1": "img/harvardmk1.png",
+		"copyright": "© Harvard - The Collection of Historical Scientific Instruments",
 		"info":{
-			"Name": "Harvard Marck I",
+			"Name": "Harvard Mark I",
 			"Invention date": "1944",
 			"Invention place": "Harvard",
 			"Type of device": "Electromechanical"
 		},
 		"shortInfo": "The Harvard Mark I, completed in 1944, was one of the earliest programmable computers. It was used primarily for complex calculations, including those related to military and scientific research.",
 		"mediumInfo": "The Harvard Mark I, a milestone in early computing history, was completed in 1944 under the guidance of Howard Aiken. This electro-mechanical behemoth, standing 51 feet long and 8 feet tall, was the world's first programmable automatic calculator. Its capabilities revolutionized computation, tackling complex mathematical problems with unprecedented speed and accuracy.",
-		"longInfo": "docs/harvardmarckI.html"
+		"longInfo": "docs/Harvard Mark I.html"
 	},{
 		"@sort": "ENIAC",
 		"shortName": "ENIAC",
-		"image1": "img/ENIAC.jpg",
-		"image2": "img/ENIAC.jpg",
+		"image1": "img/eniac.png",
+		"copyright": "© Computer History Museum - Revolution",
 		"info":{
 			"Name": "ENIAC",
 			"Invention date": "1945",
@@ -164,8 +164,8 @@
 	  {
 		"@sort": "Commodore PET",
 		"shortName": "Commodore PET",
-		"image1": "img/CommodorePET.jpg",
-		"image2": "img/CommodorePET.jpg",
+		"image1": "img/commodorepet.png",
+		"copyright": "© retroplace",
 		"info":{
 			"Name": "Commodore PET",
 			"Invention date": "1977",
@@ -174,14 +174,14 @@
 		},
 		"shortInfo": "The Commodore PET, launched in 1977, was one of the earliest personal computers. Its integrated design, featuring a keyboard and monitor, made it a popular choice for home and educational use.",
 		"mediumInfo": "In 1977, the Commodore PET burst onto the burgeoning personal computer scene, offering users a complete computing experience in a single package. With its integrated keyboard, monitor, and cassette tape drive, the PET revolutionized the way people interacted with computers, making computing accessible to a broader audience beyond hobbyists and professionals.",
-		"longInfo": "docs/CommodorePET.html"
+		"longInfo": "docs/Commodore PET.html"
 	},
 
 	  {
 		"@sort": "appleII",
 		"shortName": "Apple II",
-		"image1": "img/appleII.jpg",
-		"image2": "img/appleII.jpg",
+		"image1": "img/appleii.png",
+		"copyright": "© Wikimedia Commons",
 		"info":{
 			"Name": "Apple II",
 			"Invention date": "1977 AD",
@@ -195,8 +195,8 @@
 	{
 		"@sort": "ibmpc",
 		"shortName": "IBM PC",
-		"image1": "img/ibmpc.jpg",
-		"image2": "img/ibmpc.jpg",
+		"image1": "img/ibmpc.png",
+		"copyright": "© Neowin",
 		"info":{
 			"Name": "IBM PC",
 			"Invention date": "1981 AD",
@@ -210,8 +210,8 @@
 	{
 		"@sort": "bbcmicro",
 		"shortName": "BBC micro",
-		"image1": "img/bbcmicro.jpg",
-		"image2": "img/bbcmicro.jpg",
+		"image1": "img/bbcmicro.png",
+		"copyright": "© The National Museum of Computing",
 		"info":{
 			"Name": "BBC micro",
 			"Invention date": "1981 AD",
@@ -225,8 +225,8 @@
 	{
 		"@sort": "leonardo",
 		"shortName": "CINECA super-Leonardo",
-		"image1": "img/leonardo.jpg",
-		"image2": "img/leonardo.jpg",
+		"image1": "img/leonardo.png",
+		"copyright": "© Graziadio",
 		"info":{
 			"Name": "CINECA super-Leonardo",
 			"Invention date": "1998 AD",
@@ -240,8 +240,8 @@
 	{
 		"@sort": "macm1",
 		"shortName": "Mac M1",
-		"image1": "img/macm1.jpg",
-		"image2": "img/macm1.jpg",
+		"image1": "img/macm1.png",
+		"copyright": "© Apple",
 		"info":{
 			"Name": "Mac M1",
 			"Invention date": "2020 AD",

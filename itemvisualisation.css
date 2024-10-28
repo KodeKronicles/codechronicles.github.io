@@ -61,8 +61,8 @@ body:before {
     top: 0;
     width: 100%;
     height: 100%;
-    opacity: 0.1;
-    background-image: url(HP2-01.png);
+    opacity: 0.2;
+    background-image: url(img/background.png);
     background-repeat: repeat;
     background-position: 0 0;
     background-size: cover;
@@ -82,4 +82,21 @@ body:before {
 
 #buttonNext{
     --bs-btn-padding-x: .5rem;
+}
+
+.navbar{
+    background-color: rgba(222, 226, 230, 1);
+}
+
+.nav-link{
+    color: rgba(132, 32, 41, 1) !important;
+}
+
+.nav-link.active{
+    text-shadow: 1px 2px 2px rgba(230, 133, 181, 1) !important;
+}
+
+#itemCardHeader{
+    margin-right: 0%;
+    margin-left: 0%;
 }
