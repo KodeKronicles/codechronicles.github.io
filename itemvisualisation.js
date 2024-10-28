@@ -52,12 +52,14 @@ function showInfo(index) {
 	imgdiv.style.width = "100%";
 	imgdiv.style.backgroundRepeat = "no-repeat";
 	imgdiv.style.backgroundSize = "100% auto";
-	imgdiv.style.b
+	var copyrightBox = byId("copyrightBox");
+	copyrightBox.innerText = item.copyright;
 	//byId("img1").src = item.image1
 	//byId("img1").alt = item.shortName
 	createInfoTable(item)
-	inner("shortInfo","<p style='border-bottom-width: 4px; border-bottom-style: solid; border-bottom-color: #333; padding-top: 1.5rem; padding-bottom: 1.5rem;'>"+item.shortInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem; text-align: center;'>" + '<a type="button" class="btn btn-outline-danger btn-sm" onclick="more()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me more...</a></p>'); 
-	inner("mediumInfo","<p style='border-bottom-width: 4px; border-bottom-style: solid; border-bottom-color: #333; padding-top: 1.5rem; padding-bottom: 1.5rem;'>"+item.mediumInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem; text-align: center;'>" + '<a type="button" class="btn btn-outline-danger btn-sm" onclick="less()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me less</a> or <a type="button" class="btn btn-outline-danger btn-sm" onclick="muchMore()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me even more...</a></p>'); 
+	swapHeadersWithImages();
+	inner("shortInfo","<p style='border-bottom-width: 4px; border-bottom-style: solid; border-bottom-color: #333; padding-top: 1.5rem; padding-bottom: 0.5rem;'>"+item.shortInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem; text-align: center;'>" + '<a type="button" class="btn btn-outline-danger btn-sm" onclick="more()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me more...</a></p>'); 
+	inner("mediumInfo","<p style='border-bottom-width: 4px; border-bottom-style: solid; border-bottom-color: #333; padding-top: 1.5rem; padding-bottom: 0.5rem;'>"+item.mediumInfo + "</p><p style='margin-top: 3rem; margin-bottom: 2rem; text-align: center;'>" + '<a type="button" class="btn btn-outline-danger btn-sm" onclick="less()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me less</a> or <a type="button" class="btn btn-outline-danger btn-sm" onclick="muchMore()" style="--bs-btn-padding-x: .5rem; --bs-btn-color: #dddddd;">Tell me even more...</a></p>'); 
 	byId("longInfo").dataset['uri'] = item.longInfo
 	currentValue = item.shortName
 	prepareNavigationButtons(index)
@@ -162,4 +164,26 @@ function inner(id,content, emptyFirst=true) {
 	document.getElementById(id).innerHTML += content ; 
 }
 
+function swapHeadersWithImages() {
+	// Create an array of image URLs
+	const images = [
+		'img/icons/tag.png', // Replace with the actual URL for "Name"
+		'img/icons/calendar.png', // Replace with the actual URL for "Invention date"
+		'img/icons/location-pin.png', // Replace with the actual URL for "Invention place"
+		'img/icons/settings.png' // Replace with the actual URL for "Type of device"
+	];
 
+	// Get all th elements in the table
+	const headers = document.querySelectorAll('#infoTable th');
+
+	// Loop through each header and replace text with image
+	headers.forEach((header, index) => {
+		if (images[index]) {
+			const img = document.createElement('img');
+			img.src = images[index];
+			img.alt = header.innerText; // Set alt text for accessibility
+			header.innerHTML = ''; // Clear the existing text
+			header.appendChild(img); // Append the image
+		}
+	});
+}

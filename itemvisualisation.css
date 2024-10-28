@@ -17,6 +17,10 @@
     #table{
         margin-bottom: 0%;
     }
+
+    #img1-div{
+        height: 490px !important;
+    }
 }
 
 @media (min-width: 768px) {
@@ -25,7 +29,11 @@
     }
 
     #table{
-        margin-bottom: 88%;
+        margin-bottom: 75%;
+    }
+
+    #img1-div{
+        height: 100% !important;
     }
 }
 
@@ -35,7 +43,11 @@
     }
 
     #table{
-        margin-bottom: 145%;
+        margin-bottom: 110%;
+    }
+
+    #img1-div{
+        height: 100% !important;
     }
 }
 
@@ -45,7 +57,11 @@
     }
 
     #table{
-        margin-bottom: 155%;
+        margin-bottom: 125%;
+    }
+
+    #img1-div{
+        height: 100% !important;
     }
 }
 
@@ -64,7 +80,11 @@
     }
 
     #table{
-        margin-bottom: 170%;
+        margin-bottom: 135%;
+    }
+
+    #img1-div{
+        height: 100% !important;
     }
 }
 
@@ -88,7 +108,6 @@ body:before {
     border-top-style: solid;
     border-top-color: #333;
     padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
 }
 
 #buttonPrevious{
@@ -114,4 +133,24 @@ body:before {
 #itemCardHeader{
     margin-right: 0%;
     margin-left: 0%;
+}
+
+#img1-div{
+    height: 490px;
+}
+
+#infoTable tr td{
+    text-align: right;
+    vertical-align: middle;
+}
+
+#copyrightBox{
+    display: inline-block;
+    position: relative; 
+    top: 0px; 
+    right: 0px; 
+    background-color: red; 
+    color: white; 
+    padding: 5px;
+    padding-right: 10px;
 }
