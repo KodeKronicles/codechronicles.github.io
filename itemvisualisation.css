@@ -1,3 +1,8 @@
+@font-face{
+    font-family:"Montserrat";
+    src: url("fonts/MontserratAlternates-SemiBold.otf");
+}
+
 .container-itemvisualisation {
     padding-top: 2vh;
     --bs-gutter-x: 1.5rem;
@@ -7,6 +12,7 @@
     padding-left: calc(var(--bs-gutter-x) * .5);
     margin-right: auto;
     margin-left: auto;
+    font-family: "Montserrat";
 }
 
 @media (min-width: 576px) {
@@ -120,6 +126,7 @@ body:before {
 
 .navbar{
     background-color: rgba(222, 226, 230, 1);
+    font-family: "Montserrat";
 }
 
 .nav-link{
