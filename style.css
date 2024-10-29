@@ -1,6 +1,11 @@
 @font-face{
-    font-family:"Montserrat";
+    font-family:"Montserrat Bold";
     src: url("fonts/MontserratAlternates-SemiBold.otf");
+}
+
+@font-face{
+    font-family:"Montserrat";
+    src: url("fonts/Montserrat-Medium.otf");
 }
 
 .container-itemvisualisation {
@@ -20,6 +25,10 @@
         max-width:540px
     }
 
+    .navbar{
+        --bs-navbar-padding-y: 0;
+    }
+
     #table{
         margin-bottom: 0%;
     }
@@ -32,6 +41,10 @@
 @media (min-width: 768px) {
     .container-itemvisualisation {
         max-width:720px
+    }
+
+    .navbar{
+        --bs-navbar-padding-y: 0;
     }
 
     #table{
@@ -48,6 +61,10 @@
         max-width:960px
     }
 
+    .navbar{
+        --bs-navbar-padding-y: 0;
+    }
+
     #table{
         margin-bottom: 110%;
     }
@@ -60,6 +77,10 @@
 @media (min-width: 1200px) {
     .container-itemvisualisation {
         max-width:1140px
+    }
+
+    .navbar{
+        --bs-navbar-padding-y: 0;
     }
 
     #table{
@@ -79,6 +100,10 @@
     .limitHeight{
         max-height: 40vh !important;
         width: auto;
+    }
+
+    .navbar{
+        --bs-navbar-padding-y: 0;
     }
 
     .btn-sm{
@@ -114,6 +139,7 @@ body:before {
     border-top-style: solid;
     border-top-color: #333;
     padding-top: 1.5rem;
+    font-family: "Montserrat Bold";
 }
 
 #buttonPrevious{
@@ -126,7 +152,8 @@ body:before {
 
 .navbar{
     background-color: rgba(222, 226, 230, 1);
-    font-family: "Montserrat";
+    font-family: "Montserrat Bold";
+    --bs-navbar-padding-y: 0;
 }
 
 .nav-link{
@@ -160,4 +187,31 @@ body:before {
     color: white; 
     padding: 5px;
     padding-right: 10px;
+}
+
+#narrative{
+    font-family: "Montserrat Bold";
+    padding-top: 0.75rem;
+}
+
+#disclaimer{
+    margin-top:20vh !important;
+    padding: 1rem;
+    font-family: "Montserrat";
+}
+
+#disclaimer h3{
+    font-family: "Montserrat Bold";
+    color: rgba(132, 32, 41, 1) !important;
+}
+
+#about{
+    margin-top:20vh !important;
+    padding: 1rem;
+    font-family: "Montserrat";
+}
+
+#about h3{
+    font-family: "Montserrat Bold";
+    color: rgba(132, 32, 41, 1) !important;
 }
