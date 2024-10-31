@@ -296,16 +296,25 @@ body:before {
     color: #eee;
     margin-top: 1vh;
     padding-top: 1vh;
+    font-family: "Montserrat";
+}
+
+.container-documentation h3{
+    font-family: "Montserrat Bold";
+}
+
+.container-documentation h4{
+    font-family: "Montserrat Bold";
 }
 
 .scroll-nav-link{
-    padding: 0.5rem !important;
+    padding: 0.25rem !important;
     color: rgba(132, 32, 41, 1) !important;
     background-color: rgba(248, 249, 250, 1) !important;
 }
 
 .scroll-nav-link.active{
-    padding: 0.5rem !important;
+    padding: 0.25rem !important;
     color: rgba(248, 249, 250, 1) !important;
     background-color: rgba(132, 32, 41, 1) !important;
 }
