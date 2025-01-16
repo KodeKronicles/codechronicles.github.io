@@ -238,3 +238,32 @@ body:before {
     font-family: "Lato Black";
     padding-top: 0.75rem;
 }
+
+#disclaimer{
+    margin-top:20vh !important;
+    padding: 1rem;
+    font-family: "Lato";
+}
+
+#disclaimer h3{
+    font-family: "Lato Black";
+    color: rgba(132, 32, 41, 1) !important;
+}
+
+#about{
+    margin-top:20vh !important;
+    padding: 0.5rem;
+    font-family: "Lato";
+}
+
+#about h3{
+    font-family: "Lato Black";
+    color: rgba(132, 32, 41, 1) !important;
+    padding-top: 1.5rem;
+    padding-left: 2.5rem;
+}
+
+#about .row{
+    padding: 2.5rem;
+    text-align: center;
+}
