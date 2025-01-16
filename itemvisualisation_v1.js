@@ -42,7 +42,8 @@ function prepareNarratives() {
 function showInfo(index) {
 	var item = currentSelection[index]
 	currentSort = item['@sort']
-	inner("fullHeader",item.info.Name);
+	inner("header",item.shortName) ;
+	inner("fullHeader",item.info.Name) ;
 	var imgdiv = byId("img1-div");
 	var imgpath = "url("+item.image1+")";
 	imgdiv.style.backgroundImage = imgpath;
@@ -172,7 +173,7 @@ function swapHeadersWithImages() {
 		'img/icons/settings.png' // Replace with the actual URL for "Type of device"
 	];
 
-	// Get all the elements in the table
+	// Get all th elements in the table
 	const headers = document.querySelectorAll('#infoTable th');
 
 	// Loop through each header and replace text with image
