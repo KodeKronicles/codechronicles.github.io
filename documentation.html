@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Documentation</title>
-    <link href="style.css" rel="stylesheet" />
+    <link href="newstyle.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -15,7 +15,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 h5">
                     <li>
                         <a class="nav-link" href="index.html">Home</a>
                     </li>
@@ -87,7 +87,7 @@
                             <h3>1.2 - Responsibilities</h3>
                             <p><b>Alisa Antonova</b> - </p>
                             <p><b>Elena Binotti</b> - </p>
-                            <p><b>Hubert Krzywonos</b> - </p>
+                            <p><b>Hubert Krzywonos</b> - Design and implementation of the item visualisation page</p>
                         </div>
                         <div id="item1-3">
                             <h3>1.3 - Narratives</h3>
@@ -121,9 +121,9 @@
                         </div>
                         <div id="item2-3">
                             <h4>2.3 - Typography</h4>
-                            <p>Two fonts used for the projects are part of the same font family, Montserrat.</p>
-                            <p>For regular text, the font used is Montserrat Medium. Using a sans-serif font was warranted by ease of reading.</p>
-                            <p>For emphasized text (headings and navbar), we used Semi-Bold Montserrat Alternates. Aside from being generally thicker, some characters in this option of the font utilise a serif version, providing a further visual distinction to the general text.</p>
+                            <p>Two fonts used for the projects are part of the same font family, Lato.</p>
+                            <p>For regular text, the font used is Lato Regular. Using a sans-serif font was warranted by ease of reading.</p>
+                            <p>For emphasized text (headings and navbar), we used Lato Black. Being generally thicker, this choice leads to a visual distinction of the elements we want to emphasize.</p>
                         </div>
                         <div id="item2-4">
                             <h4>2.4 - Layout principles</h4>
@@ -159,10 +159,11 @@
                             <img src="img/docu/itemvis.png" style="height: 97%; width: 97%">
                             <p><b>Navbar</b> - Same as on other pages, it is kept visually moderate to avoid drawing attention away from the content of the page. Dark red text is also visually distinct from the regular, black text used for content text.</p>
                             <p><b>Body</b> - Same as on other pages, the body itself is used to provide a background, used to differentiate the navbar and the card with the main content, as well as provide a bit of depth by use of visual details.</p>
-                            <p><b>Card</b> - divided here into card header, and card body:</p>
+                            <p><b>Card</b> - could be described as divided into three visually separate parts:</p>
                             <p><ul>
-                                <li><b>Card header</b> - holds the narrative navigation buttons, as well as the label displaying the name of the item currently displayed and the currently selected narrative. On larger screens, this is a single row with columns of proportions 1:4:1, on smaller screens, it is three rows instead.</li>
-                                <li><b>Card body - </b>can be described as divided into four different parts. The top part holds the table with basic data about the object currently displayed, as well as an image of the object with the copyright in the upper left corner. The next two parts have visual breakers in form of a line. The second part contains textual information about the object. The third part contains buttons to display shorter/longer information. The fourth part contains a separate HTML file, representing the exhaustive version of textual information about the object.</li>
+                                <li><b>Top left</b> - holds the narrative navigation buttons, as well as the label displaying the name of the item currently displayed and the currently selected narrative. On larger screens, this is a single row with columns of proportions 1:2:1, on smaller screens, it is three rows instead. This part also holds the table containing information about the museal objects, such as provenance, date of creation and type of device.</li>
+                                <li><b>Top right</b> - holds the image of the museal object currently displayed by the item visualisation page.</li>
+                                <li><b>Bottom</b> - can be described as divided into three different parts. The first two have visual breakers in form of a line, and contain textual information about the object, and buttons to display shorter/longer information about it, respectively. The fourth part is by default not displayed, and contains a separate HTML file, representing the exhaustive version of textual information about the object.</li>
                             </ul></p>
                         </div>
                         <div id="item3-4">

@@ -20,6 +20,10 @@
     #img1-div{
         height: 512px !important;
     }
+
+    #documentation-navbar{
+        display:none;
+    }
 }
 
 @media (min-width: 576px) {
@@ -37,6 +41,14 @@
 
     #img1-div{
         height: 512px !important;
+    }
+
+    .container-documentation {
+        max-width:540px
+    }
+
+    #documentation-navbar{
+        display:none;
     }
 }
 
@@ -56,6 +68,15 @@
     #img1-div{
         height: 100% !important;
     }
+
+    #documentation-navbar{
+        display:flex;
+    }
+
+    .scrollspy{
+        height: 90vh;
+        overflow: auto;
+    }
 }
 
 @media (min-width: 992px) {
@@ -74,6 +95,19 @@
     #img1-div{
         height: 100% !important;
     }
+
+    .container-documentation {
+        max-width:960px
+    }
+
+    #documentation-navbar{
+        display:flex;
+    }
+
+    .scrollspy{
+        height: 90vh;
+        overflow: auto;
+    }
 }
 
 @media (min-width: 1200px) {
@@ -91,6 +125,19 @@
 
     #img1-div{
         height: 100% !important;
+    }
+
+    .container-documentation {
+        max-width:1140px
+    }
+
+    #documentation-navbar{
+        display:flex;
+    }
+
+    .scrollspy{
+        height: 90vh;
+        overflow: auto;
     }
 }
 
@@ -119,6 +166,21 @@
     #img1-div{
         height: 100% !important;
     }
+
+    .container-documentation {
+        max-width:80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    #documentation-navbar{
+        display:flex;
+    }
+
+    .scrollspy{
+        height: 90vh;
+        overflow: auto;
+    }
 }
 
 @media (min-width: 2000px) {
@@ -145,6 +207,21 @@
 
     #img1-div{
         height: 100% !important;
+    }
+
+    .container-documentation {
+        max-width:80%;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    #documentation-navbar{
+        display:flex;
+    }
+
+    .scrollspy{
+        height: 90vh;
+        overflow: auto;
     }
 }
 
@@ -266,4 +343,42 @@ body:before {
 #about .row{
     padding: 2.5rem;
     text-align: center;
+}
+
+.container-documentation {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-right: auto;
+    margin-left: auto;
+    color: #eee;
+    margin-top: 1vh;
+    padding-top: 1vh;
+    font-family: "Lato";
+}
+
+.container-documentation h3{
+    font-family: "Lato Black";
+}
+
+.container-documentation h4{
+    font-family: "Lato Black";
+}
+
+.scroll-nav-link{
+    padding: 0.25rem !important;
+    color: rgba(132, 32, 41, 1) !important;
+    background-color: rgba(248, 249, 250, 1) !important;
+}
+
+.scroll-nav-link.active{
+    padding: 0.25rem !important;
+    color: rgba(248, 249, 250, 1) !important;
+    background-color: rgba(132, 32, 41, 1) !important;
+}
+
+.scrollspy {
+    scrollbar-width: none;
 }
